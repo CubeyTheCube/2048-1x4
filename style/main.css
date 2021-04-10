@@ -557,7 +557,7 @@ hr {
     background: #bbada0;
     border-radius: 6px;
     width: 280px;
-    height: 280px;
+    height: 78px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
@@ -568,6 +568,9 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
+      width: 280px;
+      height: 78px;
+      transform: translateX(0px);
       background: rgba(238, 228, 218, 0.5);
       z-index: 100;
       text-align: center;
@@ -582,7 +585,7 @@ hr {
         font-weight: bold;
         height: 60px;
         line-height: 60px;
-        margin-top: 222px; }
+        margin-top: 10px !important; }
       .game-container .game-message .lower {
         display: block;
         margin-top: 59px; }
@@ -593,6 +596,7 @@ hr {
         padding: 0 20px;
         text-decoration: none;
         color: #f9f6f2;
+        transform: scale(0.6) translateY(-50px);
         height: 40px;
         line-height: 42px;
         margin-left: 9px; }
