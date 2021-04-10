@@ -152,12 +152,15 @@ hr {
   background: #bbada0;
   border-radius: 6px;
   width: 500px;
-  height: 260px;
+  height: 140px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
   .game-container .game-message {
     display: none;
+    width: 666px;
+    height: 187px;
+    transform: scale(0.75) translateX(-110px) translateY(-31px);
     position: absolute;
     top: 0;
     right: 0;
@@ -177,7 +180,7 @@ hr {
       font-weight: bold;
       height: 60px;
       line-height: 60px;
-      margin-top: 70px; }
+      margin-top: 19px; }
     .game-container .game-message .lower {
       display: block;
       margin-top: 30px; }
